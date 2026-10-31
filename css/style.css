@@ -33,23 +33,21 @@ nav a {
   padding: 20px;
 }
 
-@media (min-width: 600px) {
-  nav {
+  @media (min-width: 700px) {
+  .page-layout {
     flex-direction: row;
+  }
+
+  main {
+    flex: 2;
+  }
+
+  aside {
+    flex: 1;
   }
 }
 
-main {
-  flex: 2;
-}
-
-aside {
-  flex: 1;
-  background-color: #f0f0f0;
-  padding: 16px;
-}
-
-footer {
+  footer {
   background-color: #33475b;
   color: #ffffff;
   padding: 16px;
