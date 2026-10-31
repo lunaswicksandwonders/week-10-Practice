@@ -28,9 +28,15 @@ nav a {
 
 .page-layout {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 20px;
   padding: 20px;
+}
+
+@media (min-width: 600px) {
+  nav {
+    flex-direction: row;
+  }
 }
 
 main {
